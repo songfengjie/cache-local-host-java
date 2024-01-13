@@ -1,0 +1,66 @@
+*.class
+.classpath
+.project
+*.iml
+.settings/
+.metadata/
+Servers/
+.idea/
+*.iws
+*.ipr
+
+# Gradle files
+.gradle/
+build/
+*/build/
+out/
+
+target/
+log/
+logs/
+# Ignore OS generated files #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+.~lock.*
+
+# Package Files #
+*.war
+*.ear
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# other
+mybatis-gen.xml
+#logback.xml
+#logback-spring.xml
+
+HELP.md
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.factorypath
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
